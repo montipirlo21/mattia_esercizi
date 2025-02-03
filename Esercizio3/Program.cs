@@ -1,36 +1,19 @@
-﻿// Crea un programma che richieda all'utente di inserire il proprio nome e lo stampi.
+﻿
+// Creare un programma che richieda di inserire 5 voti e poi stampi il voto più alto
 public partial class Program
 {
     public static void Main()
     {
-        // Creare un menu 1 voto e peso del voto massimo voti a 20 massimo peso 100, 2 media dei voti , 9 exit
-        // int indexVoto = 0;
-        // double[] voti = new double[20];
-        // double[] pesi = new double[20];
+        // Dichiari la variabile che conterrà il voto più alto
 
-        int intScelta;
-        do
-        {
-            Console.WriteLine("Inserisci 1=voto, 2=media o 9=exit");
-            string scelta = Console.ReadLine();
-            intScelta = Convert.ToInt32(scelta);
+        // Effettui i cinque cicli
+        // CICLO
+        // richiedi il voto 
+        // leggi il voto
+        // se il voto è maggiore di quella salvata lo vai a sostituire
+        // FINE CICLO 
 
-            // Devo capire cosa ha scelto l'operatore
-            switch (intScelta)
-            {
-                case 1:
-                    break;
-                case 2:
-                    break;
-                case 9:
-                    Console.WriteLine("Esco dal programma");
-                    break;
-                default:
-                    break;
-            }
-
-        } while (intScelta != 9);
-
+        // Stampi la variabile che contiene il valore più alto
         
     }
 }
