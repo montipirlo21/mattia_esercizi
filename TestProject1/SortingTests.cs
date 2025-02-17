@@ -74,4 +74,36 @@ public class SortingTests
             // Assert
             Assert.Equal(expected, result);
         }
+
+         [Fact]
+        public void Sorting_SelectionSort_EservizioCitta()
+        {
+            // Arrange
+            int[] abitanti = { 2870000, 320000, 1400000, 870000, 670000, 580000, 390000, 960000, 380000 };
+            int[] expected ={ 320000, 380000, 390000, 580000, 670000, 870000, 960000 , 1400000, 2870000 };
+
+            // Act
+            var result = Sorting.SelectionSort(abitanti);
+
+            // Assert
+            Assert.Equal(expected, result);
+        }
+
+
+        
+         [Fact]
+        public void Sorting_Insertion_element()
+        {
+            // Arrange
+            int[] abitanti = { 320000, 380000, 390000, 580000, 670000, 870000, 960000 ,  1400000, 2870000 };
+            int citta = 1_000_000;
+            int[] expected ={ 320000, 380000, 390000, 580000, 670000, 870000, 960000 ,1_000_000,  1400000, 2870000 };
+
+            // Act
+            var result = Sorting.Insertion_element(abitanti,citta);
+
+            // Assert
+            Assert.Equal(expected, result);
+        }
+
 }
