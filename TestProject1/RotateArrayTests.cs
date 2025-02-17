@@ -1,6 +1,8 @@
 
 using Xunit;
 
+namespace TestProject;
+
 public class Esercizio5Tests
 {
     [Fact]
