@@ -1,6 +1,4 @@
-﻿using Esercizio5;
-
-public partial class Program
+﻿public partial class Program
 {
     public static void Main()
     {

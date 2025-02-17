@@ -1,7 +1,5 @@
 using System;
 
-namespace Esercizio5;
-
 public static class RotateArray
 {
 
