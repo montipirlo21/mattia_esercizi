@@ -16,7 +16,8 @@ public class SortingTests
             var result = Sorting.SelectionSort(numeriOriginali);
 
             // Assert
-            Assert.Equal(expected, result);
+            Assert.Equal(expected, result.Item1);            
+            Assert.True(result.Item2 <= numeriOriginali.Length - 1);
         }
 
         [Fact]
@@ -30,7 +31,8 @@ public class SortingTests
             var result = Sorting.SelectionSort(numeriOriginali);
 
             // Assert
-            Assert.Equal(expected, result);
+            Assert.Equal(expected, result.Item1);
+            Assert.True(result.Item2 <= numeriOriginali.Length - 1);
         }
 
         [Fact]
@@ -44,7 +46,8 @@ public class SortingTests
             var result = Sorting.SelectionSort(numeriOriginali);
 
             // Assert
-            Assert.Equal(expected, result);
+            Assert.Equal(expected, result.Item1);
+            Assert.True(result.Item2 <= numeriOriginali.Length - 1);
         }
 
         [Fact]
@@ -58,7 +61,8 @@ public class SortingTests
             var result = Sorting.SelectionSort(numeriOriginali);
 
             // Assert
-            Assert.Equal(expected, result);
+            Assert.Equal(expected, result.Item1);
+            Assert.True(result.Item2 <= numeriOriginali.Length - 1);
         }
 
          [Fact]
@@ -72,7 +76,8 @@ public class SortingTests
             var result = Sorting.SelectionSort(numeriOriginali);
 
             // Assert
-            Assert.Equal(expected, result);
+            Assert.Equal(expected, result.Item1);
+            Assert.True(result.Item2 <= numeriOriginali.Length - 1);
         }
 
          [Fact]
@@ -86,7 +91,8 @@ public class SortingTests
             var result = Sorting.SelectionSort(abitanti);
 
             // Assert
-            Assert.Equal(expected, result);
+            Assert.Equal(expected, result.Item1);
+            Assert.True(result.Item2 <= expected.Length - 1);
         }
 
 

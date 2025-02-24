@@ -1,4 +1,6 @@
-﻿public partial class Program
+﻿using Esercizi.Esercizi;
+
+public partial class Program
 {
     public static void Main()
     {
@@ -8,12 +10,12 @@
         // Cicli.ReverseArray();
 
         //// Esercizio sull'inversione di un array
-        int[] numeriOriginali = new int[] { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
-        RotateArray.Rotate(numeriOriginali);
+        // int[] numeriOriginali = new int[] { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+        // RotateArray.Rotate(numeriOriginali);
 
         //// Esercizio sul calcolo dell'area di un rettangolo
-
-    }
-
-   
+        ///
+        // CompitoInClasse.Elaborazione();
+        // CompitoInClasse.Elaborazione_2();
+    }   
 }
